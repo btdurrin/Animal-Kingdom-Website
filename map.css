@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+body
+{
+	font-size: 16px;
+}
+
+.TopBar
+{
+	width: 800px;
+	margin: auto;
+	float: right;
+}
+.topnav
+{
+	top: 60px;
+	position: fixed;
+}
+.topnav ul
+{
+	position: fixed;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.topnav li
+{
+	display: inline-block;
+
+}
+.topnav a
+{
+	float: right;
+	color: #fff;
+	border: none;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+.topnav a:hover 
+{
+	background-color: #fff;
+	color: #000066;
+}
+.logo img
+{
+	width: 25%;
+	height: 25%;
+	top: 0;
+	margin-right: 1px;
+	float: left;
+	position: fixed;
+}

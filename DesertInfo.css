@@ -1,0 +1,307 @@
+@charset "ISO-8859-1";
+*
+body
+{
+    font-family: 'Architects Daughter', cursive;  
+}
+
+.Background
+{
+	background: url('http://cdn.sci-news.com/images/2019/09/image_7625-Sahara-Desert.jpg');
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 135%;
+	position: absolute;
+	opacity: 0.4; 
+	top: 0%; 
+	left: 0%;
+	background-size: 100% 100%
+	
+}
+
+.TopBar
+{
+	top: 7.8%;
+	height: 15%
+}
+.TopBar .topnav
+{
+	left: 25%;
+	top: 5%;
+	right: 0%;
+	height: 13%;
+	position: absolute;
+}
+.topnav .home
+{
+	top: 5%;
+	left: 2%;
+	right: 17%;
+	width: 20%;
+	position: absolute;
+}
+
+.topnav .full
+{
+	top: 5%;
+	left: 15%;
+	right: 30%;
+	width: 20%;
+	position: absolute;
+}
+
+.topnav .about
+{
+	top: 5%;
+	left: 32%;
+	right: 47%;
+	width: 20%;
+	position: absolute;
+}
+
+.topnav .references
+{
+	top: 5%;
+	left: 45%;
+	right: 60%;
+	width: 20%;
+	position: absolute;
+}
+
+.topnav a
+{
+	color: #fff;
+	border: none;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+.topnav a:hover 
+{
+	background-color: #fff;
+	color: #000066;
+}
+.topnav input[type=text]
+{
+	top: -5%;
+	height: 40%;
+	left: 65%;
+	width: 20%;
+	border: none;
+	font-size: 100%;
+	opacity: 50%;
+	position: absolute;
+}
+.logo img
+{
+	top: -0.5%;
+    width: 15%;
+    left: 0%;
+    height: 15%;       
+    position: absolute;
+}
+
+
+.topnav .search-button button
+{
+	top: -5%;
+	height: 45%; 
+  	left: 86%;
+  	width: 5%;
+  	background: #000000;
+  	color: white;
+  	font-size: 100%;
+  	border: none;
+  	cursor: pointer;
+  	position: absolute;
+}
+
+.topnav .search-button button:hover 
+{
+  background: #4b4b4b;
+  position: absolute;
+}
+
+.foodChain 
+{
+	background-color: #000000;
+	border: blue;
+	border-width: thick;
+  	top: 15%;
+	height: 103%;
+	left: 25%;
+	right: 5%;
+	width: 55%;
+  	position: absolute;
+  	opacity: 0.4; 
+}
+
+.genInfo 
+{
+	background-color: #000000;
+	border-width: thick;
+  	top: 15%;
+	height: 45%;
+	width: 24%;
+  	position: absolute;
+  	opacity: 0.4; 
+}
+
+.refLink 
+{
+	background-color: #000000;
+	border-width: thick;
+  	top: 62%;
+	height: 45%;
+	width: 24%;
+  	position: absolute;
+  	opacity: 0.4; 
+}
+
+.seeLocation 
+{
+	background-color: #000000;
+	border-width: thick;
+  	top: 109%;
+	height: 9%;
+	width: 24%;
+  	position: absolute;
+  	opacity: 0.4; 
+}
+
+.animalName
+{
+	background-color: #000000;
+	border-width: thick;
+  	top: 15%;
+  	left: 80.5%;
+	height: 20%;
+	width: 18%;
+  	position: fixed;
+  	opacity: 0.4; 
+}
+
+.animalDescription
+{
+	background-color: #000000;
+	border-width: thick;
+  	top: 38%;
+  	left: 80.5%;
+	height: 20%;
+	width: 18%;
+  	position: fixed;
+  	opacity: 0.4; 
+}
+
+.BottomBar
+{
+	top: 130%;
+	height: 35%;
+	left: 0%;
+	width: 100%;
+	position: absolute;
+	background-color: black;
+}
+
+
+.BottomBar .BottomNav
+{
+	left: 25%;
+	top: 5%;
+	right: 0%;
+	height: 13%;
+	position: absolute;
+}
+.BottomNav .Bhome
+{
+	top: 200%;
+	left: 2%;
+	right: 17%;
+	width: 20%;
+	position: absolute;
+}
+
+.BottomNav .Bfull
+{
+	top: 200%;
+	left: 15%;
+	right: 30%;
+	width: 20%;
+	position: absolute;
+}
+
+.BottomNav .Babout
+{
+	top: 200%;
+	left: 32%;
+	right: 47%;
+	width: 20%;
+	position: absolute;
+}
+
+.BottomNav .Breferences
+{
+	top: 200%;
+	left: 45%;
+	right: 60%;
+	width: 20%;
+	position: absolute;
+}
+
+.BottomNav a
+{
+	color: #fff;
+	border: none;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+.BottomNav a:hover 
+{
+	background-color: #fff;
+	color: #000066;
+}
+
+.BottomNav input[type=text]
+{
+	top: -5%;
+	height: 40%;
+	left: 65%;
+	width: 20%;
+	border: none;
+	font-size: 100%;
+	opacity: 50%;
+	position: absolute;
+}
+.Blogo img
+{
+	top: 134.5%;
+    width: 15%;
+    left: 0%;
+    height: 15%;       
+    position: absolute;
+}
+.container {
+  	position: relative;
+}
+.overlay 
+{	
+	position: absolute;
+   	top: 0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #00FF00;
+}
+.image
+{
+	display: block;
+}
+
+.container:hover .overlay{
+  opacity: 0.9;
+}

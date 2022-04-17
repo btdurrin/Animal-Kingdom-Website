@@ -1,0 +1,102 @@
+@charset "ISO-8859-1";
+*
+{
+           margin: 0px;
+           padding: 0px;
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+}
+body
+{
+	font-family: 'Architects Daughter', cursive;
+	background-color: rgb(0, 0, 0);
+           
+}
+
+.TopBar
+{
+	top: 7.8%;
+	height: 15%;
+}
+.TopBar .topnav
+{
+	left: 25%;
+	top: 5%;
+	right: 0%;
+	height: 13%;
+	position: absolute;
+}
+.topnav .home
+{
+	top: 5%;
+	left: 2%;
+	right: 17%;
+	width: 20%;
+	position: absolute;
+}
+
+.topnav .full
+{
+	top: 5%;
+	left: 15%;
+	right: 30%;
+	width: 20%;
+	position: absolute;
+}
+
+.topnav .about
+{
+	top: 5%;
+	left: 32%;
+	right: 47%;
+	width: 20%;
+	position: absolute;
+}
+
+.topnav .references
+{
+	top: 5%;
+	left: 45%;
+	right: 60%;
+	width: 20%;
+	position: absolute;
+}
+
+.topnav a
+{
+	color: #fff;
+	border: none;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+.topnav a:hover 
+{
+	background-color: #fff;
+	color: #000066;
+}
+
+.topnav input[type=text]
+{
+	top: -5%;
+	height: 40%;
+	left: 65%;
+	width: 20%;
+	border: none;
+	font-size: 100%;
+	opacity: 50%;
+	position: absolute;
+}
+.logo img
+{
+	top: -0.5%;
+    width: 15%;
+    left: 0%;
+    height: 15%;       
+    position: absolute;
+}
